@@ -17,3 +17,5 @@ FOUNDATION_EXPORT const unsigned char TPCircularBufferVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <TPCircularBuffer/PublicHeader.h>
 
 
+#import <TPCircularBuffer/TPCircularBuffer.h>
+#import <TPCircularBuffer/TPCircularBuffer+AudioBufferList.h>
