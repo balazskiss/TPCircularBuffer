@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98D7A5B9216CABFA00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5B7216CABFA00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C1216CAC1E00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C2216CAC1E00D51A89 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */; };
 		98D7A5C5216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +15,6 @@
 
 /* Begin PBXFileReference section */
 		98D7A5B4216CABFA00D51A89 /* TPCircularBuffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPCircularBuffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D7A5B7216CABFA00D51A89 /* TPCircularBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPCircularBuffer.h; sourceTree = "<group>"; };
 		98D7A5B8216CABFA00D51A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = ../../TPCircularBuffer.h; sourceTree = "<group>"; };
 		98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = ../../TPCircularBuffer.c; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */,
-				98D7A5B7216CABFA00D51A89 /* TPCircularBuffer.h */,
 				98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */,
 				98D7A5C4216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.c */,
 				98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */,
@@ -72,7 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				98D7A5C5216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h in Headers */,
-				98D7A5B9216CABFA00D51A89 /* TPCircularBuffer.h in Headers */,
 				98D7A5C1216CAC1E00D51A89 /* TPCircularBuffer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
