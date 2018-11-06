@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		98D7A5B9216CABFA00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5B7216CABFA00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D7A5C1216CAC1E00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */; };
+		98D7A5C1216CAC1E00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C2216CAC1E00D51A89 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */; };
-		98D7A5C5216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */; };
+		98D7A5C5216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C6216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C4216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.c */; };
 /* End PBXBuildFile section */
 
