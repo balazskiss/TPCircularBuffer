@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9817E8AB21946414002C2064 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */; };
+		9817E8AC21946416002C2064 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9817E8AD2194641A002C2064 /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C4216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.c */; };
+		9817E8AE2194641D002C2064 /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C1216CAC1E00D51A89 /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98D7A5C2216CAC1E00D51A89 /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D7A5C0216CAC1E00D51A89 /* TPCircularBuffer.c */; };
 		98D7A5C5216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D7A5C3216CAD1C00D51A89 /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9817E8A3219463F3002C2064 /* TPCircularBuffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPCircularBuffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9817E8A6219463F3002C2064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D7A5B4216CABFA00D51A89 /* TPCircularBuffer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPCircularBuffer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D7A5B8216CABFA00D51A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98D7A5BF216CAC1E00D51A89 /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = ../../TPCircularBuffer.h; sourceTree = "<group>"; };
@@ -23,6 +29,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9817E8A0219463F3002C2064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D7A5B1216CABFA00D51A89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,10 +46,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9817E8A4219463F3002C2064 /* TPCircularBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				9817E8A6219463F3002C2064 /* Info.plist */,
+			);
+			path = TPCircularBuffer;
+			sourceTree = "<group>";
+		};
 		98D7A5AA216CABFA00D51A89 = {
 			isa = PBXGroup;
 			children = (
 				98D7A5B6216CABFA00D51A89 /* TPCircularBuffer */,
+				9817E8A4219463F3002C2064 /* TPCircularBuffer */,
 				98D7A5B5216CABFA00D51A89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				98D7A5B4216CABFA00D51A89 /* TPCircularBuffer.framework */,
+				9817E8A3219463F3002C2064 /* TPCircularBuffer.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +87,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9817E89E219463F3002C2064 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9817E8AE2194641D002C2064 /* TPCircularBuffer+AudioBufferList.h in Headers */,
+				9817E8AC21946416002C2064 /* TPCircularBuffer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D7A5AF216CABFA00D51A89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,9 +108,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		98D7A5B3216CABFA00D51A89 /* TPCircularBuffer */ = {
+		9817E8A2219463F3002C2064 /* TPCircularBuffer (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98D7A5BC216CABFA00D51A89 /* Build configuration list for PBXNativeTarget "TPCircularBuffer" */;
+			buildConfigurationList = 9817E8AA219463F3002C2064 /* Build configuration list for PBXNativeTarget "TPCircularBuffer (macOS)" */;
+			buildPhases = (
+				9817E89E219463F3002C2064 /* Headers */,
+				9817E89F219463F3002C2064 /* Sources */,
+				9817E8A0219463F3002C2064 /* Frameworks */,
+				9817E8A1219463F3002C2064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPCircularBuffer (macOS)";
+			productName = TPCircularBuffer;
+			productReference = 9817E8A3219463F3002C2064 /* TPCircularBuffer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98D7A5B3216CABFA00D51A89 /* TPCircularBuffer (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D7A5BC216CABFA00D51A89 /* Build configuration list for PBXNativeTarget "TPCircularBuffer (iOS)" */;
 			buildPhases = (
 				98D7A5AF216CABFA00D51A89 /* Headers */,
 				98D7A5B0216CABFA00D51A89 /* Sources */,
@@ -89,7 +139,7 @@
 			);
 			dependencies = (
 			);
-			name = TPCircularBuffer;
+			name = "TPCircularBuffer (iOS)";
 			productName = TPCircularBuffer;
 			productReference = 98D7A5B4216CABFA00D51A89 /* TPCircularBuffer.framework */;
 			productType = "com.apple.product-type.framework";
@@ -103,6 +153,9 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Synervoz Inc";
 				TargetAttributes = {
+					9817E8A2219463F3002C2064 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					98D7A5B3216CABFA00D51A89 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -120,12 +173,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98D7A5B3216CABFA00D51A89 /* TPCircularBuffer */,
+				98D7A5B3216CABFA00D51A89 /* TPCircularBuffer (iOS) */,
+				9817E8A2219463F3002C2064 /* TPCircularBuffer (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9817E8A1219463F3002C2064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D7A5B2216CABFA00D51A89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,6 +197,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9817E89F219463F3002C2064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9817E8AB21946414002C2064 /* TPCircularBuffer.c in Sources */,
+				9817E8AD2194641A002C2064 /* TPCircularBuffer+AudioBufferList.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		98D7A5B0216CABFA00D51A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +218,65 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9817E8A8219463F3002C2064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TPCircularBuffer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.TPCircularBuffer;
+				PRODUCT_NAME = TPCircularBuffer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9817E8A9219463F3002C2064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TPCircularBuffer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.TPCircularBuffer;
+				PRODUCT_NAME = TPCircularBuffer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		98D7A5BA216CABFA00D51A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -287,7 +416,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.TPCircularBuffer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPCircularBuffer;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,7 +442,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synervoz.TPCircularBuffer;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPCircularBuffer;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,6 +451,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9817E8AA219463F3002C2064 /* Build configuration list for PBXNativeTarget "TPCircularBuffer (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9817E8A8219463F3002C2064 /* Debug */,
+				9817E8A9219463F3002C2064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		98D7A5AE216CABFA00D51A89 /* Build configuration list for PBXProject "TPCircularBuffer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -331,7 +469,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98D7A5BC216CABFA00D51A89 /* Build configuration list for PBXNativeTarget "TPCircularBuffer" */ = {
+		98D7A5BC216CABFA00D51A89 /* Build configuration list for PBXNativeTarget "TPCircularBuffer (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98D7A5BD216CABFA00D51A89 /* Debug */,
